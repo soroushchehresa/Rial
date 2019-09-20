@@ -1,0 +1,65 @@
+{
+  "name": "rial",
+  "version": "1.0.0",
+  "description": "A MacBook touch bar app to get Dollar, Euro, gold and coin rates into Rial",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
+  },
+  "keywords": [
+    "dollar rates",
+    "euro rates",
+    "gold rates",
+    "coin rates",
+    "rates",
+    "rial",
+    "touchbar",
+    "macbook",
+    "currency rates"
+  ],
+  "devDependencies": {
+    "electron": "^6.0.10",
+    "electron-builder": "^21.2.0"
+  },
+  "dependencies": {
+    "axios": "^0.19.0",
+    "lodash": "^4.17.15"
+  },
+  "build": {
+    "productName": "Rial",
+    "appId": "com.soroushchehresa.Rial",
+    "dmg": {
+      "contents": [
+        {
+          "x": 130,
+          "y": 220
+        },
+        {
+          "x": 410,
+          "y": 220,
+          "type": "link",
+          "path": "/Applications"
+        }
+      ]
+    },
+    "directories": {
+      "output": "release"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/soroushchehresa/Rial.git"
+  },
+  "author": {
+    "name": "Soroush Chehresa",
+    "email": "s1996ch@gmail.com",
+    "url": "https://www.linkedin.com/in/soroush-chehresa"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/soroushchehresa/Rial/issues"
+  },
+  "homepage": "https://github.com/soroushchehresa/Rial#readme"
+}
