@@ -16,7 +16,7 @@ getPrice = () => {
   gold.label = `طلا ۱۸ عیار:  🔄`;
   axios.get('http://call3.tgju.org/ajax.json?2019092012-20190920111730-cqBKXSqADeUcLetq5z2Z')
     .then(function(response) {
-      let data = _.get(response, ['data', 'current']);
+      const data = _.get(response, ['data', 'current']);
       USDollarLabel.label = `دلار آمریکا:  ${_.get(data, ['price_dollar_rl', 'h'])} ﷼`;
       euroLabel.label = `یورو:  ${_.get(data, ['price_eur', 'p'])} ﷼`;
       coin.label = `سکه:  ${_.get(data, ['sekee', 'p'])} ﷼`;
