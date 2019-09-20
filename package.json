@@ -1,7 +1,7 @@
 {
   "name": "rial",
   "version": "1.0.0",
-  "description": "A MacBook touch bar app to get Dollar, Euro, gold and coin rates into Rial",
+  "description": "A MacBook touch bar application to get American-dollar, euro, gold and coin rates into Rial",
   "main": "main.js",
   "scripts": {
     "start": "electron .",
