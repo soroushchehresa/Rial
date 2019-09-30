@@ -5,9 +5,7 @@
 <br />
 
 # 📈 Rial
-A MacBook touch bar application to get American-dollar, euro, gold and coin rates into [Rial](https://en.wikipedia.org/wiki/Iranian_rial).
-
-This project implemented in the [Persian language](https://en.wikipedia.org/wiki/Persian_language) by [Electron](https://github.com/electron/electron) and use [tgju.org](http://www.tgju.org) website API to get the latest rates.
+A MacBook touch bar application to get American-dollar, euro, gold and coin rates into [Rial](https://en.wikipedia.org/wiki/Iranian_rial). <br> This project implemented in the [Persian language](https://en.wikipedia.org/wiki/Persian_language) by [Electron](https://github.com/electron/electron) and use [tgju.org](http://www.tgju.org) website API to get the latest rates.
 
 <br />
 
