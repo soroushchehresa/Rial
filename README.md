@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/omidnikrah/Rial/master/rial.jpg" width="100%" />
+  <img src="https://raw.githubusercontent.com/soroushchehresa/Rial/master/rial.jpg" width="100%" />
 </p>
 
 <br />
