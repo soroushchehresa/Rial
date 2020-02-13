@@ -37,7 +37,7 @@ const touchBar = new TouchBar({
 });
 
 touchBar.escapeItem = new TouchBarButton({
-  'label': '🤑',
+  'label': '🔄',
   click: getPrice,
 });
 
