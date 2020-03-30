@@ -10,4 +10,5 @@ A simple MacBook application to show USD, Euro, gold and gold coin live prices i
 <br />
 
 ### Download and Install:
-**[Version 1.0.0](https://github.com/soroushchehresa/Rial/releases/download/v1.0.0/Rial-1.0.0.zip)** (Just for MacBooks with touch bar)
+**[Version 1.1.0](https://github.com/soroushchehresa/Rial/releases/download/v1.1.0/Rial-1.1.0.dmg
+)** (Just for MacBooks with touch bar)

@@ -1,12 +1,12 @@
 {
   "name": "rial",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A MacBook touch bar application to get American-dollar, euro, gold and coin rates into Rial",
   "main": "main.js",
   "scripts": {
     "start": "electron .",
-    "pack": "electron-builder --dir",
-    "dist": "electron-builder"
+    "pack": "CSC_IDENTITY_AUTO_DISCOVERY=false electron-builder --dir",
+    "dist": "CSC_IDENTITY_AUTO_DISCOVERY=false electron-builder"
   },
   "keywords": [
     "dollar rates",
@@ -21,7 +21,7 @@
   ],
   "devDependencies": {
     "electron": "^6.0.10",
-    "electron-builder": "^21.2.0"
+    "electron-builder": "^22.4.1"
   },
   "dependencies": {
     "axios": "^0.19.0",
@@ -55,7 +55,7 @@
   "author": {
     "name": "Soroush Chehresa",
     "email": "s1996ch@gmail.com",
-    "url": "https://www.linkedin.com/in/soroush-chehresa"
+    "url": "https://github.com/soroushchehresa"
   },
   "license": "MIT",
   "bugs": {
